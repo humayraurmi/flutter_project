@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
           style: GoogleFonts.lobster(
             textStyle: TextStyle(
               fontSize: 28,
-              color: Color(0xFF264653), // pink-এর বদলে
+              color: Color(0xFF264653), 
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: const Color.fromARGB(255, 9, 106, 96), // pink-এর বদলে
+        backgroundColor: const Color.fromARGB(255, 9, 106, 96), 
         foregroundColor: Colors.white,
         hoverColor: Colors.tealAccent,
 
